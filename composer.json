@@ -1,0 +1,7 @@
+{
+    "require": {
+        "knplabs/knp-snappy": "^1.2",
+        "ext-gd": "*",
+        "mpdf/mpdf": "dev-php8-support"
+    }
+}
