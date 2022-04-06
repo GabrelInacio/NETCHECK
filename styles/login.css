@@ -1,0 +1,112 @@
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 28rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding: 40px;
+  box-shadow: 0 15px 4rem rgba(0, 0, 0, 0.986);
+  padding-bottom:0;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo{
+  padding-bottom: 10%;
+  margin: auto;
+}
+
+.user-box {
+  position: relative;
+}
+
+.user-box input {
+  display: flex;
+  justify-content: center;
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 70%;
+  padding: 10px 0;
+  font-size: 1.25rem;
+  color: rgb(55,52,53);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid rgb(220, 51, 56);
+  outline: none;
+  background: transparent;
+}
+
+.user-box label {
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  top:0;
+  left: 3.5rem;
+  padding: 10px 0;
+  font-size: 1.25rem;
+  color: rgb(55,52,53);
+  pointer-events: none;
+  transition: .5s;
+}
+
+.user-box input:focus ~ label,
+
+.user-box input:valid ~ label {
+  top: -28px;
+  color: #949494;
+  font-size: 16px;
+}
+
+.my-btn{
+  border-radius: .25rem;
+  background-color: rgb(220, 51, 56);
+  color:white;
+  border: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  font-size: 1.25rem;
+  display: flex;
+  cursor: pointer;
+  padding-top: .5rem;
+	padding-bottom: .5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+  text-decoration: none;
+}
+
+.my-btn:hover{
+  background-color: black;
+  transition: .5s;
+  color: white;
+}
+
+.back{
+  margin-left:25rem;
+}
+
+.fundo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}

@@ -1,0 +1,379 @@
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h4{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h5{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+span{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.topo{
+    overflow: hidden;
+    background-color: #DC3338;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    z-index: 1;
+}
+
+img{
+    padding-top:.25rem;
+    padding-bottom:.25rem;
+    padding-left: 2rem;
+    height: 5rem;
+}
+
+.logout{
+    border-radius: .25rem;
+    background-color: white;
+    color: rgb(55,52,53);
+    border: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+.logout:hover{
+    background-color: rgb(55,52,53);
+    transition: .5s;
+    color: white;
+    
+  }
+
+.username{
+    color:white;
+    font-size: 1.25rem;
+}
+
+.menu{
+    margin-top: 6rem;
+    width: 20rem;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #BE3D3E;
+    overflow-x: hidden;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
+    padding: 0 0 0 0;
+    height:100%;
+}
+.menu .item i{
+    padding-right: .5rem;
+}
+.menu .item{
+    border-bottom:1px solid #A33B3C;
+    border-top:1px solid #CB6364; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    display: block;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+.item:hover{
+    background-color: rgb(55,52,53);
+    transition: .5s;
+    border-bottom:1px solid #ffffff00;
+    border-top:1px solid #ffffff56; 
+}
+
+.conteudo{
+    margin: 0 0 0 0;
+    padding: 9rem 0 0 24rem;
+    width:100%;
+    height:100%;
+    z-index: -3;
+}
+
+.dado{
+    border-radius: 1rem;
+    background-color: rgb(55,52,53);
+    color: white;
+    border: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8rem;
+    font-size: 1.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+.modcard{
+    border-radius: 1rem;
+    background-color: rgb(55,52,53);
+    color: white;
+    border: transparent;
+    width: 8rem;
+    font-size: 1.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+.anticard{
+    border-radius: 1rem;
+    background-color: white;
+    color: rgb(55,52,53);
+    border: transparent;
+    width: 8rem;
+    font-size: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+.anticard:hover{
+    background-color: rgb(55,52,53);
+    transition: .5s;
+    color: white;
+}
+
+.botao{
+    border-radius: .25rem;
+    background-color: white;
+    color: rgb(55,52,53);
+    border: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.botao:hover{
+    background-color: #BE3D3E;
+    transition: .5s;
+    color: white;
+}
+
+.botao2{
+    border-radius: .25rem;
+    background-color:rgb(55,52,53);
+    color: white;
+    border: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.botao2:hover{
+    background-color: #BE3D3E;
+    transition: .5s;
+    color: white;
+}
+
+
+.botao3{
+    border-radius: .25rem;
+    background-color:rgb(55,52,53);
+    color: white;
+    border: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.botao3:hover{
+    background-color: white;
+    transition: .5s;
+    color: black;
+}
+
+.user-box {
+    position: relative;
+  }
+  
+.user-box input {
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 70%;
+    padding: 10px 0;
+    font-size: 1.25rem;
+    color: rgb(55,52,53);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(220, 51, 56);
+    outline: none;
+    background: transparent;
+}
+  
+.user-box label {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top:0;
+    left: 3.5rem;
+    padding: 10px 0;
+    font-size: 1.25rem;
+    color: rgb(55,52,53);
+    pointer-events: none;
+    transition: .5s;
+}
+ 
+.user-box select {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 70%;
+    padding: 10px 0;
+    font-size: 1.25rem;
+    color: rgb(55,52,53);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(220, 51, 56);
+    outline: none;
+    background: transparent;
+}
+
+.user-box select:focus ~ label,
+  
+.user-box select:valid ~ label {
+    top: -28px;
+    color: #949494;
+    font-size: 16px;
+}
+
+.user-box input:focus ~ label,
+  
+.user-box input:valid ~ label {
+    top: -28px;
+    color: #949494;
+    font-size: 16px;
+}
+
+.user-box .date:focus ~ label,
+  
+.user-box .date:invalid ~ label {
+    top: -28px;
+    padding-left:1rem;
+    color: #949494;
+    font-size: 16px;
+}
+
+.cardnot{
+    border-radius: 1rem;
+    background-color: white;
+    color: rgb(55,52,53);
+    border: .5rem solid white;
+    width: 8rem;
+    font-size: 1.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+.cardsel{
+    border-radius: 1rem;
+    background-color: white;
+    color: rgb(55,52,53);
+    border: .5rem solid #3BB551;
+    width: 8rem;
+    font-size: 1.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 .5rem rgba(55,52,53,.6);
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+  }
